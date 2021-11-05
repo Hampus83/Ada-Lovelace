@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.1em;
+    line-height: 150%;
+    color: rgb(36, 36, 36);
+    font-family: 'rosarivo', serif
+}
+
+section {
+    width: 70vw;
+    margin: 0 auto;
+    background-color:rgb(247, 235, 213);
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    width: 70vw;
+    height: auto;
+    letter-spacing:normal;
+    line-height: normal;
+    background-color: rgb(247, 235, 213);
+    padding: 50px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 15px;
+    color: rgb(36, 36, 36);
+    background-color: rgb(192, 172, 158);
+    box-shadow: 0 0 5px ;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px;
+    min-width: 200px;
+}
+
+.main-text {
+    border-radius: 10px;
+    padding: 40px;
+    margin: 40px;
+    box-shadow: 4px 6px 20px -5px;
+}
+
+.quote {
+    background-color: rgb(228, 223, 213);
+    padding: 30px;
+    margin: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(139, 139, 139);
+    /* box-shadow: 1px 1px 10px 1px; */
+}
+
+.headline {
+    font-size: 50px; 
+    margin: 30px auto 50px auto;
+}
+
+p {
+    text-align: left;
+    font-size: 20px;
+    margin: 30px;
+}
+
+h2 {
+    margin: 20px auto;
+}
+
+em {
+    color: rgb(104, 103, 103);
+    font-size: 20px;
+    
+}
+
+.sources {
+    text-align: left;
+    margin: 10px 0 0 0;
+    font-size: 16px;
+}
+
+.sources-text {
+    margin: 0 auto;
+    font-style: italic;
+    font-size: 16px;
+}
+
+.pic-seventeen {
+    width: 20vw;
+    border: 5px double rgb(36, 36, 36);
+    border-radius: 50px;
+}
+
+.pic-portrait {
+    width: 20vw;
+    margin: 30px auto 0 auto;
+    display:block;
+    border: 5px double rgb(36, 36, 36);
+    border-radius: 50px;
+}
+
+.gallery-img {
+    width: 10vw;
+    border: 5px double rgb(36, 36, 36);
+    border-radius: 50px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin: 0px;
+}
+
+figcaption {
+    font-style: italic;
+}
+
